@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Source+Sans+Pro:wght@600&display=swap');
+
+/* GENERAL RULES */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* HEADER */
+
+.menu{
+    position: absolute;
+    right:2%;
+    top:45px;
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+.menu a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.menu a:visited{
+    
+    color:black;
+}
+
+#logo{
+    position: relative;
+    top:5px;
+}
+
+#logo img{
+    height: 120px;
+}
+.section-1 .banner{
+    max-width: 100%;
+}
