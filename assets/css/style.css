@@ -5,6 +5,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+#bloc_page{
+    width: 80%;
+    margin: 0 auto;
 }
 
 body{
@@ -14,7 +20,7 @@ body{
 
 .menu{
     position: absolute;
-    right:2%;
+    right:10%;
     top:45px;
 }
 .menu ul {
@@ -51,14 +57,14 @@ body{
     position:absolute;
     right:42%;
     height: 90px;
-    top:38%;
+    top:35%;
 }
 
  .banner h1 {
-    font-size: 2.75rem;
+    font-size: 2.60rem;
     position: absolute;
     left:39%;
-    bottom : 43%;
+    bottom : 45%;
     color:white;
 }
 /* END SECTION 1 */
@@ -119,5 +125,59 @@ body{
     top:15px;
 }
 
+/* END SECTION 2 */
 
+/* FOOTER */
 
+footer{
+    height: auto;
+    margin-top: 3%;
+    background-color:#5B359D;
+    color: white;
+}
+.social-network  p {
+    font-weight: bold;
+    padding-top: 2%;
+    
+}
+.social-network{
+    text-align: center;
+}
+
+.social-network .fab {
+position: relative;
+margin-left: 7%;
+margin-top: 10px;
+font-size: 30px;
+right : 65px;
+color:#BDAED8;
+}
+
+.legal-information{
+ display: flex;
+ text-align: center;
+ justify-content: space-around;
+}
+
+.legal-information .element {
+    margin-top: 45px;
+
+}
+
+.legal-information .element ul {
+    margin-top: 15px;
+    margin-left: 180px;
+    margin-bottom: 15px;
+}
+
+.element .without_square{
+    list-style-type: none;
+}
+
+.element ul{
+    list-style-type: disc;
+}
+
+.element h4{
+    color:#A49ED3;
+}
