@@ -37,7 +37,8 @@ body{
     top:5px;
 }
 
-/* FIN HEADER */
+/* END HEADER */
+
 
 /* SECTION 1 */
 
@@ -60,3 +61,63 @@ body{
     bottom : 43%;
     color:white;
 }
+/* END SECTION 1 */
+
+/* SECTION 2 */
+
+#small_description{
+    color:#575757;
+    font-size: 1.60rem;
+    text-align: center;
+    margin-top:3%;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-right:5%;
+ 
+}
+.item{
+
+    margin-left: 5%;
+}
+.item h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.item p {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.item img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto; 
+}
+
+.avis_client p{
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5%;
+    font-size: 25px;
+    color: black;
+}
+
+.avis_client p > span{
+    color:grey;
+    font-size: 20px;
+    position: relative;
+    top:15px;
+}
+
+
+
